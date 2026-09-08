@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Matemática 9° Ano</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🧮 Quiz Matemática 9° Ano</h1>
+
+    <!-- TELA INICIAL -->
+    <div id="inicio">
+
+        <h2>Digite seu nome</h2>
+
+        <input type="text" id="txtNome" placeholder="Digite seu nome">
+
+        <h2>Escolha seu avatar</h2>
+
+        <div id="listaEmojis">
+
+            <span class="emoji selecionado">😀</span>
+            <span class="emoji">😎</span>
+            <span class="emoji">😴</span>
+            <span class="emoji">🤡</span>
+            <span class="emoji">💀</span>
+            <span class="emoji">🤖</span>
+            <span class="emoji">👨‍💻</span>
+            <span class="emoji">👩‍💻</span>
+            <span class="emoji">🦁</span>
+            <span class="emoji">🐱</span>
+            <span class="emoji">🐶</span>
+            <span class="emoji">🦊</span>
+            <span class="emoji">🐼</span>
+
+        </div>
+
+        <button id="btnIniciar">🚀 Iniciar Jogo</button>
+
+    </div>
+
+    <!-- JOGO -->
+    <div id="jogo" class="oculto">
+
+        <div class="topoJogo">
+
+            <h2 id="nomeJogador"></h2>
+
+            <h2>
+                Pontos:
+                <span id="pontos">100</span>
+            </h2>
+
+        </div>
+
+        <!-- Barra de progresso -->
+
+        <p id="progresso">
+            Pergunta 1 de 5
+        </p>
+
+        <div class="barra">
+            <div id="barraProgresso"></div>
+        </div>
+
+        <!-- Cronômetro -->
+
+        <div class="cronometro">
+
+            ⏰ Tempo:
+            <span id="tempo">15</span>s
+
+        </div>
+
+        <h2 id="pergunta"></h2>
+
+        <div id="alternativas"></div>
+
+    </div>
+
+    <!-- FINAL -->
+
+    <div id="fim" class="oculto">
+
+        <h2 id="mensagemFinal"></h2>
+
+        <h1 id="estrelas"></h1>
+
+        <h2 id="medalha"></h2>
+
+        <button onclick="reiniciar()">
+
+            🔄 Jogar Novamente
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
