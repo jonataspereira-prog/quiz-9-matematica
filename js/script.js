@@ -25,7 +25,7 @@ const perguntas = [
     {
         pergunta:
             "Durante um incêndio num edifício de apartamentos, os bombeiros utilizaram uma escada Magirus de 10 metros para atingir a janela do apartamento em chamas. A escada estava colocada a 1 m do chão, sobre um caminhão que se encontrava afastado 6 m do edifício. Qual é a altura do apartamento em relação ao chão?",
-        imagem: "../img/p2.png",
+        imagem: "./img/p2.png",
 
         alternativas: [
             "8 metros",
@@ -42,7 +42,7 @@ const perguntas = [
     {
         pergunta:
             "O esquema abaixo representa o projeto de uma escada de 5 degraus com mesma altura. De acordo com os dados da figura, qual é o comprimento de todo o corrimão, em metros?",
-        imagem: "../img/p3.png",
+        imagem: "./img/p3.png",
         alternativas: [
             "2,10 m",
             "2,20 m",
@@ -58,7 +58,7 @@ const perguntas = [
     {
         pergunta:
             "A figura representa uma ilha em escala reduzida. Se o lado de cada quadradinho do mapa equivale a 1 km no tamanho real, qual é a distância, em linha reta, entre os pontos A e B?",
-        imagem: "../img/p4.png",
+        imagem: "./img/p4.png",
         alternativas: [
             "√20 km",
             "√25 km",
@@ -74,7 +74,7 @@ const perguntas = [
     {
         pergunta:
             "Qual deve ser a altitude do balão para que sua distância ao topo do prédio seja de 10 km?",
-        imagem: "../img/p5.png",
+        imagem: "./img/p5.png",
         alternativas: [
             "6,0 km",
             "6,2 km",
@@ -106,7 +106,7 @@ const perguntas = [
     {
         pergunta:
             "Em um recente vendaval, um poste de luz de 9 metros de altura quebrou-se em um ponto a uma distância x do solo. A parte do poste acima da fratura inclinou-se e sua extremidade superior encostou no solo a uma distância de 3 m do mesmo. A que altura x do solo o poste quebrou?",
-        imagem: "../img/p7.png",
+        imagem: "./img/p7.png",
         alternativas: [
             "3 metros",
             "4 metros",
@@ -122,7 +122,7 @@ const perguntas = [
     {
         pergunta:
             "Na casa ilustrada, a estrutura de madeira que sustenta o telhado apoia-se na laje. Devem-se dispor caibros (peças de madeira) na vertical, indo da laje ao ponto mais alto do telhado, como a peça BD da ilustração. Devido à presença da caixa d'água, essas peças são cortadas com dois metros de comprimento e postas à meia distância das extremidades A e C da laje. Assim, ABD é um triângulo retângulo de catetos quatro metros e dois metros. O comprimento da peça de madeira com extremidades em A e em B é, aproximadamente, de:",
-        imagem: "../img/p8.png",
+        imagem: "./img/p8.png",
         alternativas: [
             "5 metros",
             "7,05 metros",
@@ -184,10 +184,10 @@ let avatarSelecionado = "😀";
 
 // Arquivos de áudio da pasta audio
 const sons = {
-    acerto: new Audio("../audio/acerto.mp3"),
-    erro: new Audio("../audio/erro.mp3"),
-    gameover: new Audio("../audio/gameover.mp3"),
-    vitoria: new Audio("../audio/vitoria.mp3")
+    acerto: new Audio("./audio/acerto.mp3"),
+    erro: new Audio("./audio/erro.mp3"),
+    gameover: new Audio("./audio/gameover.mp3"),
+    vitoria: new Audio("./audio/vitoria.mp3")
 };
 
 
